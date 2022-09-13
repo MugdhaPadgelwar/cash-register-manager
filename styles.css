@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Ibarra+Real+Nova&family=Josefin+Sans&display=swap');
+
+body {
+    background-color: #B22222;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.container {
+    border-color: #FFA07A;
+    max-width: 100%;
+    width: 650px;
+    margin: 4rem auto;
+    padding-top: 1.5rem;
+    color: #FFA07A;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: 5px solid #FFA07A;
+    display: block;
+}
+.heading{
+    
+    font-size: 3rem;
+}
+p{
+    font-size: 1.2rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    color: #B22222;
+    font-size: large;
+    background-color: #FFDEAD;
+}
+
+button {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    margin: 1rem auto;
+    background-color: #FFA07A;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 1rem;
+    color: #B22222;
+    font-weight: bold;
+}
+/* 
+#rtn-chg {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 650px;
+    margin: 1rem auto;
+} */
+
+table{
+    width: 100%;
+    table-layout: fixed;
+   
+    
+}
+table,th,td{
+    border: 1px solid #FFA07A ;
+     font: weight 2rem;
+     font-weight: bold;
+    
+}
+td{
+    padding: 1rem 1rem;
+}
+th{
+    padding: 1rem 1rem;
+}
