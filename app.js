@@ -11,6 +11,10 @@ checkBtn.addEventListener("click", function isValidate() {
   const billAmountValue = Number(billAmount.value);
   const cashGivenValue = Number(cashGiven.value);
   if (billAmount.value > 0) {
+    if(cashGivenValue===billAmountValue)
+    {
+      showMessage("Bill has been paid.")
+    }
     if (cashGivenValue >= billAmountValue) {
       const amountToBeGiven = cashGiven.value - billAmount.value;
       calculateChange(amountToBeGiven);
